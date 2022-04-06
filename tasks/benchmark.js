@@ -1,11 +1,11 @@
 
 /* IMPORT */
 
-const {default: minify} = require ( '../dist' ),
-      {BEFORE} = require ( '../test/fixtures'),
-      benchmark = require ( 'benchloop' );
+import benchmark from 'benchloop';
+import minify from '../dist/index.js';
+import {BEFORE} from '../test/fixtures.js';
 
-/* BENCHMARK */
+/* MAIN */
 
 benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
   iterations: 100000,

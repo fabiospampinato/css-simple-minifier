@@ -1,5 +1,5 @@
 
-/* FIXTURES */
+/* MAIN */
 
 const BEFORE = `
   .foo,
@@ -16,4 +16,4 @@ const AFTER = '.foo,.bar{color: red;}.baz{color: blue;}';
 
 /* EXPORT */
 
-module.exports = {BEFORE, AFTER};
+export {BEFORE, AFTER};

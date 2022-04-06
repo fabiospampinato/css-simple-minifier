@@ -1,11 +1,11 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import {default as minify} from '../dist';
-import {BEFORE, AFTER} from './fixtures';
+import {describe} from 'fava';
+import {default as minify} from '../dist/index.js';
+import {BEFORE, AFTER} from './fixtures.js';
 
-/* CSS SIMPLE MINIFIER */
+/* MAIN */
 
 describe ( 'CSS Simple Minifier', it => {
 

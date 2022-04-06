@@ -1,11 +1,11 @@
 
-/* CSS SIMPLE MINIFIER */
+/* MAIN */
 
-function minify ( css: string ): string {
+const minify = ( css: string ): string => {
 
-  return css.trim ().replace ( /\s*(;|,|{|})\s*/g, '$1' );
+  return css.trim ().replace ( /\s*([;,{}])\s*/g, '$1' );
 
-}
+};
 
 /* EXPORT */
 
