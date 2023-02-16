@@ -2,7 +2,7 @@
 /* IMPORT */
 
 import {describe} from 'fava';
-import {default as minify} from '../dist/index.js';
+import minify from '../dist/index.js';
 import {BEFORE, AFTER} from './fixtures.js';
 
 /* MAIN */
