@@ -2,6 +2,7 @@
   "name": "css-simple-minifier",
   "repository": "github:fabiospampinato/css-simple-minifier",
   "description": "A CSS minifier that's tiny and very fast.",
+  "license": "MIT",
   "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -26,9 +27,9 @@
     "small"
   ],
   "devDependencies": {
-    "fava": "^0.2.1",
+    "fava": "^0.3.4",
     "benchloop": "^2.1.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
