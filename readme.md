@@ -7,13 +7,15 @@ It basically just removes most unnecessary whitespace. Compared to a full-blown 
 ## Install
 
 ```sh
-npm install --save css-simple-minifier
+npm install css-simple-minifier
 ```
 
 ## Usage
 
 ```ts
 import minify from 'css-simple-minifier';
+
+// Let's make some CSS to minify
 
 const css = `
   .foo,
@@ -26,8 +28,9 @@ const css = `
   }
 `;
 
-minify ( css ); // => '.foo,.bar{color: red;}.baz{color: blue;}'
+// Let's minify that CSS
 
+minify ( css ); // => '.foo,.bar{color: red;}.baz{color: blue;}'
 ```
 
 ## License
