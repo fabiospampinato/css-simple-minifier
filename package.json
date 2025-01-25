@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/css-simple-minifier",
   "description": "A CSS minifier that's tiny and very fast.",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
